@@ -1,0 +1,18 @@
+Python program PSR_LowMassComp_ECCvsPb_plot_maker.py will create a plot like Eccen_vs_OrbitalPeriod.pdf. 
+Reading binary system information from textfiles PSR_Period_Pb_ECC_MinMassWithErrors_finalList.txt and NEW_PSR.txt.
+
+The plot is eccentricity ( e ) as a a function of orbital period ( P b ) for recycled pulsars with low-mass
+companion ( < 0.4M ). The dashed line represents the prediction expected from the evolutionary scenario
+by Phinney (1992)[ref: Phinney E. S., 1992, Philosophical Transactions of the Royal Society
+of London Series A, 341,39 ]. Most recycled pulsars follow this line (shown as solid black circles), although eccentric
+( e ∼ 0.027 − 0.14 , shown as in blue stars) binaries are found (Knispel et al., 2015; Camilo et al., 2015;
+Barr et al., 2017a; Octau et al., 2018; Stovall et al., 2019) that likely result from a different evolutionary
+process (Antoniadis, 2014). For some time, these systems were the only ones found in the P b ∼ 22 − 32
+days region. The newly discovered PSRs J0732 + 2314 and J0824 + 0028 (shown as solid red triangles) are
+in that P b region, but are low eccentricity. Also PSR J0509 + 0856 follows Phinney (1992) evolutionary
+prediction very well.
+
+
+How to run:
+
+python PSR_LowMassComp_ECCvsPb_plot_maker  
